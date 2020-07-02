@@ -35,4 +35,8 @@
 	     :ensure t
 	     :config (evil-mode 1))
 
+(use-package magit
+	     :ensure t
+	     :config (global-set-key (kbd "C-x g") 'magit-status))
+
 ;;; init-20-nav-interface.el ends here
