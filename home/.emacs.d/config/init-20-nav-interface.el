@@ -31,4 +31,8 @@
   :ensure t
   :config (global-set-key [f8] 'neotree-toggle))
 
+(use-package evil
+	     :ensure t
+	     :config (evil-mode 1))
+
 ;;; init-20-nav-interface.el ends here
