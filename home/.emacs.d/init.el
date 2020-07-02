@@ -22,7 +22,6 @@
 (setq package-enable-at-startup nil)
 (setq package-archives (append package-archives
 			       '(("org" . "https://orgmode.org/elpa/")
-				 ("marmalade" . "https://marmalade-repo.org/packages/")
 				 ("gnu" . "https://elpa.gnu.org/packages/"))))
 
 ;; This is more complicated so that we'll support https when available
