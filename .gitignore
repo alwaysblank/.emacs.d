@@ -1,0 +1,13 @@
+# Packages (elpa)
+elpa
+
+# Scratch directory
+scratch
+
+# Auto-Created Files
+auto-save-list
+recentf
+/bookmarks
+/session.*
+/projectile-bookmarks.eld
+/vimish-fold/*
