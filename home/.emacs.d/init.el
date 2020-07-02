@@ -78,6 +78,7 @@ There are two things you can do about this warning:
  '(doom-modeline-buffer-state-icon t)
  '(doom-modeline-enable-word-count t)
  '(doom-modeline-mode t)
+ '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
     (doom-modeline dracula-theme which-key use-package swiper-helm org-plus-contrib org-journal monokai-theme markdown-mode helm-org-rifle general exec-path-from-shell evil-surround evil-snipe diminish color-theme adoc-mode))))
