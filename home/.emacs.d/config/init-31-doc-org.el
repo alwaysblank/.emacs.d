@@ -9,6 +9,9 @@
 (setq org-directory "~/org/")
 (setq org-default-notes-file "~/org/refile.org")
 
+;; Let org handle indentation, please
+(setq org-startup-indented t)
+
 ;; Ingest all org files, however deep, into the agenda
 (setq org-agenda-files (directory-files-recursively "~/org/" "\\.org$"))
 

@@ -12,12 +12,21 @@
 ;; Set default fill column
 (setq-default fill-column 80)
 
+;; Wrap lines visually, but only on text modes
+(add-hook 'text-mode-hook 'turn-on-visual-line-mode)
+
+;; Wrap lines visually respecting fill-column
+(use-package visual-fill-column
+  :ensure t
+  :init (add-hook 'visual-line-mode-hook #'visual-fill-column-mode))
+
 ;; quiet, please! No dinging!
 (setq visible-bell nil)
 
 ;; Disable menu bars, etc.
 (if window-system (scroll-bar-mode -1))
 (tool-bar-mode -1)
+(toggle-scroll-bar -1)
 (menu-bar-mode -1)
 
 ;; Save more 'recent files'
