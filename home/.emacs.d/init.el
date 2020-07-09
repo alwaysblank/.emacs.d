@@ -69,6 +69,10 @@ There are two things you can do about this warning:
 (load-file "~/.emacs.d/config/init-30-doc-gen.el")
 (load-file "~/.emacs.d/config/init-31-doc-org.el")
 
+;; === Specialized Software
+;;; Feed reader
+(load-file "~/.emacs.d/config/init-60-elfeed.el")
+
 ;;; init.el ends here
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
