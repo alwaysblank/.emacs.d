@@ -53,11 +53,6 @@ There are two things you can do about this warning:
   (require 'use-package))
 (require 'diminish)       ;; if you use :diminish
 
-;; Set the path variable
-(use-package exec-path-from-shell
-  :ensure t
-  :config (exec-path-from-shell-initialize))
-
 ;; === Face Customization ===
 (load-file "~/.emacs.d/config/init-10-face.el")
 
