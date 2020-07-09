@@ -11,3 +11,6 @@ recentf
 /session.*
 /projectile-bookmarks.eld
 /vimish-fold/*
+/home/.emacs.d/transient/
+/home/.emacs.d/tramp
+/home/.emacs.d/eshell/
