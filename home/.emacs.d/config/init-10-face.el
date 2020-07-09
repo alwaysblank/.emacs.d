@@ -5,13 +5,6 @@
 ;;; Code:
 (require 'use-package)
 
-;; == Load Custom Theme ==
-
-;;(use-package dracula-theme
-;;  :ensure t
-;;  :defer t)
-;;(load-theme 'dracula t)
-
 ;; Use "Hack" font
 (custom-set-faces
  '(default ((t (:family "Hack Nerd Font" :foundry "SRC" :slant normal :weight normal :height 120 :width normal)))))
@@ -52,7 +45,7 @@
   ;; Global settings (defaults)
   (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
         doom-themes-enable-italic t) ; if nil, italics is universally disabled
-  (load-theme 'doom-dracula t)
+  (load-theme 'doom-solarized-light t)
 
   ;; Enable flashing mode-line on errors
   (doom-themes-visual-bell-config)
