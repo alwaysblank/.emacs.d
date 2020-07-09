@@ -31,12 +31,24 @@
   :ensure t
   :config (global-set-key [f8] 'neotree-toggle))
 
+;; vim-like keybindings
 (use-package evil
 	     :ensure t
 	     :config (evil-mode 1))
 
+;; Add support for surround tools in evil
+(use-package evil-surround
+  :ensure t
+  :config
+  (global-evil-surround-mode 1))
+
+;; Add some nice git support
 (use-package magit
 	     :ensure t
 	     :config (global-set-key (kbd "C-x g") 'magit-status))
+
+;; Evil keybindings for magit
+(use-package evil-magit
+  :ensure t)
 
 ;;; init-20-nav-interface.el ends here
