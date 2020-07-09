@@ -12,6 +12,9 @@
 ;; Set default fill column
 (setq-default fill-column 80)
 
+;; Show line numbers on the side
+(add-hook 'text-mode-hook 'display-line-numbers-mode)
+
 ;; Wrap lines visually, but only on text modes
 (add-hook 'text-mode-hook 'turn-on-visual-line-mode)
 
